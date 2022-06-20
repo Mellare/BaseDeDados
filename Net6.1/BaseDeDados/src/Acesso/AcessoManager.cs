@@ -55,3 +55,39 @@ public class AcessoManager
         Console.ReadLine();
     }
 }
+    
+    
+    
+    
+    //Código a parte sobre o conceito de fila.
+    
+/*var fila = new Queue <string>();
+
+Console.WriteLine(" 'Adicionar': Registra na fila.");
+Console.WriteLine(" 'Remover': Remove na fila atual.");
+Console.WriteLine(" 'Finalizar': Exibe a fila atual.");
+
+bool y = true;
+while (y){
+
+string text = Console.ReadLine();
+
+if (text == "Adicionar"){
+   
+      Console.WriteLine("Digite: ");
+      string texto = Console.ReadLine();
+      fila.Enqueue(texto);
+
+}
+if (text == "Remover"){
+      fila.Dequeue();
+}
+if (text == "Finalizar"){
+            
+      foreach (var i in fila){
+          Console.WriteLine(i);
+          
+}
+break;
+}
+}*/
